@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startGame(View view) {
         setContentView(R.layout.activity_game);
+
     }
 
     public void about(View view) {
