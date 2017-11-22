@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Boss</string>
+    <string name="msg_it_1">Диалоговое окно 1</string>
+    <string name="msg_it_2">Диалоговое окно 2</string>
+    <string name="msg_ad_1">Диалоговое окно 1</string>
+    <string name="msg_ad_2">Диалоговое окно 2</string>
+    <string name="msg_em_1">Диалоговое окно 1</string>
+    <string name="msg_em_2">Диалоговое окно 2</string>
+    <string name="msg_of_1">Диалоговое окно 1</string>
+    <string name="msg_of_2">Диалоговое окно 2</string>
+    <string name="msg_pd_1">Диалоговое окно 1</string>
+    <string name="msg_pd_2">Диалоговое окно 2</string>
 </resources>
