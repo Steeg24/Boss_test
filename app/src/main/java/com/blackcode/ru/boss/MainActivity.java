@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
      =======================================================*/
 
     public void startGame(View view) {
-        setContentView(R.layout.activity_game2);
+        // setContentView(R.layout.activity_game2);
         Intent intent = new Intent(this,Game2Activity.class);
         startActivity(intent);
 
