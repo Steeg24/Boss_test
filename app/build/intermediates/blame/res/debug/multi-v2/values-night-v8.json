@@ -4,7 +4,7 @@
             "outputFile": "C:\\Boss_test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Public\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\38f33a2863717e2e8b09dc0ee23ed2bf\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Public\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\c1bf076cea2335db10690f7cf909cf86\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

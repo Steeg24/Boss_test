@@ -5,10 +5,8 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -33,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     //Метод activity, вызывает первый экран activity_main
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,8 +87,7 @@ public class MainActivity extends AppCompatActivity {
      =======================================================*/
 
     public void startGame(View view) {
-        // setContentView(R.layout.activity_game2);
-        Intent intent = new Intent(this,Game2Activity.class);
+        Intent intent = new Intent(this,GameActivity.class);
         startActivity(intent);
 
     }

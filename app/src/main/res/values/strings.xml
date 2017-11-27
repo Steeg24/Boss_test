@@ -1,3 +1,10 @@
 <resources>
+    <string name="app_name">Boss</string>
     <string name="boss">Boss</string>
+    <string name="congratulations">"Поздравляем с первым днем на новом посту! Здесь можно посмотреть на шкалу уважения средм отделов. Изначально они нейтрально относятся к вам, пора это изменить!</string>
+    <string name="it">Отдел IT</string>
+    <string name="ad">Финансовый отдел</string>
+    <string name="em">Отдел разработки</string>
+    <string name="of">Отдел кадров</string>
+    <string name="pd">Канцелярия</string>
 </resources>

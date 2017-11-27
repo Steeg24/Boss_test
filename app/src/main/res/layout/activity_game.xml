@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
-    android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context="com.blackcode.ru.boss.GameActivity">
 
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Progress_bar1"
-        android:src="@drawable/img" />
+        android:contentDescription="@string/ad"
+        android:src="@android:drawable/btn_star"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Progress_bar2"
-        android:src="@drawable/img" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:src="@drawable/img" />
+        android:contentDescription="@string/em"
+        android:src="@android:drawable/btn_star"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/it"
+        android:src="@android:drawable/btn_star"/>
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Progress_bar4"
-        android:src="@drawable/img" />
+        android:contentDescription="@string/pd"
+        android:src="@android:drawable/btn_star"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Progress_bar3"
-        android:src="@drawable/img" />
+        android:contentDescription="@string/of"
+        android:src="@android:drawable/btn_star"/>
 
     <ProgressBar
         android:id="@+id/Progress_bar1"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="286dp"
         android:layout_height="60dp"
-
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="32dp"
         android:max="100"
-        android:min="0"
-        android:progress="20" />
+        android:progress="50" />
 
     <ProgressBar
         android:id="@+id/Progress_bar2"
@@ -60,10 +64,10 @@
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/Progress_bar1"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="32dp"
         android:max="100"
-        android:min="0"
-        android:progress="30" />
+        android:progress="50" />
 
     <ProgressBar
         android:id="@+id/Progress_bar3"
@@ -72,34 +76,34 @@
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/Progress_bar2"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="32dp"
         android:max="100"
-        android:min="0"
-        android:progress="40" />
+        android:progress="50" />
 
     <ProgressBar
         android:id="@+id/Progress_bar4"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="285dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/Progress_bar3"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="32dp"
         android:max="100"
-        android:min="0"
         android:progress="50" />
 
     <ProgressBar
         android:id="@+id/Progress_bar5"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="285dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/Progress_bar4"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="32dp"
         android:max="100"
-        android:min="0"
-        android:progress="60" />
+        android:progress="50" />
 
 
     <Button
@@ -107,9 +111,8 @@
         style="@style/TextViewStyle"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="99dp"
-        android:text="Следующий день"
-        android:onClick="secondDay"/>
+        android:layout_marginBottom="96dp"
+        android:onClick="startDay"/>
 
 
 </RelativeLayout>

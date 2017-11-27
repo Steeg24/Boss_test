@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="it">
+        <item>Диалоговое окно it_1</item>
+        <item>Диалоговое окно it_2</item>
+        <item>Диалоговое окно it_3</item>
+        <item>Диалоговое окно it_4</item>
+    </string-array>
+
+    <string-array name="ad">
+        <item>Диалоговое окно ad_1</item>
+        <item>Диалоговое окно ad_2</item>
+        <item>Диалоговое окно ad_3</item>
+        <item>Диалоговое окно ad_4</item>
+    </string-array>
+
+    <string-array name="em">
+        <item>Диалоговое окно ad_1</item>
+        <item>Диалоговое окно ad_2</item>
+        <item>Диалоговое окно ad_3</item>
+        <item>Диалоговое окно ad_4</item>
+    </string-array>
+
+    <string-array name="of">
+        <item>Диалоговое окно ad_1</item>
+        <item>Диалоговое окно ad_2</item>
+        <item>Диалоговое окно ad_3</item>
+        <item>Диалоговое окно ad_4</item>
+    </string-array>
+
+    <string-array name="pd">
+        <item>Диалоговое окно pd_1</item>
+        <item>Диалоговое окно pd_2</item>
+        <item>Диалоговое окно pd_3</item>
+        <item>Диалоговое окно pd_4</item>
+    </string-array>
+
+
+</resources>

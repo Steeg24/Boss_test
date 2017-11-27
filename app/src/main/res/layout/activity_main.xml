@@ -23,8 +23,7 @@
         style="@style/TextViewStyle"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="settings"
-        android:layout_alignParentLeft="true" />
+        android:onClick="settings" />
 
     <Button
         android:id="@+id/bt_start_game"
@@ -42,8 +41,7 @@
         style="@style/TextViewStyle"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:onClick="about"
-        android:layout_alignParentRight="true" />
+        android:onClick="about" />
 
 
 
